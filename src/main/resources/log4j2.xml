@@ -3,7 +3,7 @@
 <xml status="WARN" monitorInterval="30">
 	<Properties>
 		<Property name="LOG_PATTERN">
-			%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2}	(%F:%L) -- %m%n
+			%d{yyyy-MM-dd HH:mm:ss} | %-5p | [%t] %C{2}:%L -- %m%n
 		</Property>
 	</Properties>
 	<Appenders>
